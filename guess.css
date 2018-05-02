@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+body {
+    background: url('https://www.fg-a.com/wallpapers/geo-shapes-black-1280b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Sigmar One", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#inputContainer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 50%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#guessButton {
+    background-color: aliceblue;
+    color: royalblue;
+    font-family: "Sigmar One";
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#resetButton {
+    background-color: aliceblue;
+    color: royalblue;
+    font-family: "Sigmar One";
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#stylize{
+    width: 30%;
+    margin-right: auto;
+    margin-left: 5%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#button1{
+    width: 100px;
+    border-radius: 2px;   
+    border-color: #ff9900;
+    color: #ff9900;
+    background-color: beige;
+    cursor: pointer;    
+}
+
+#button2{
+    width: 100px;
+    border-radius: 2px;   
+    border-color: #ff9900;
+    color: beige;
+    background-color: #ff9900;
+    cursor: pointer;    
+}
+
+#stay{
+    opacity: 0;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(230, 255, 230);
+    color: black;
+    font-size: 10px;  
+    padding: 5px;
+    border-radius: 2px;
+    font-family: Audiowide;
+    text-align: left;
+    min-width: 32%;
+}

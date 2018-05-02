@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+        <link rel="stylesheet" href="guess.css"/>
+        <title>Guessing Game</title>
+    </head>
+    <body>
+        <h1>Guessing Game</h1>
+        <h2 id="headman">Guess the number between 1 and 100.</h2>
+        <p id="counter">Guesses so far: 0</p>
+        <div id="inputContainer">
+            <input id="guess" type="text" placeholder="Guess a Number" onclick="resetter()">
+            <button id="guessButton" onclick="guess()">Guess</button>
+            <button id="resetButton" onclick="reset()">Reset</button>
+            <br>
+            <p id="done"></p>
+        </div>
+        <div id="stylize">
+        <p id="hint">Hint Style:</p>
+        <button id="button2" onclick="okay1()">Relative</button>
+        <button id="button1" onclick="okay2()">Distance</button>
+        <div id="stay"></div>    
+        <script src="guess.js"></script>
+        </div>
+    </body>
+</html>
