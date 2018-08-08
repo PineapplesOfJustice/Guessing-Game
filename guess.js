@@ -146,7 +146,7 @@ function guess2(){
       document.getElementById("counter").innerHTML = "My burning spirit! So close, so far. Guesses so far: " + attempt;
     }
     else if (text > 0){
-      document.getElementById("counter").innerHTML = "Arghh, why is my hand in a stove! Guesses so far: " + attempt;
+      document.getElementById("counter").innerHTML = "Arghh, the house is flaming down upon my poor, fragile hand! Guesses so far: " + attempt;
     }
     tryHard.push(t);  
     console.log(tryHard[extra]);
